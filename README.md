@@ -19,7 +19,7 @@ Read more about robot users [here](https://help.github.com/articles/what-s-the-d
 Same as above, but for an internal GHE instance
 
 ####internal_url
-This is a URL as it is passed to the [python-github3](https://github.com/copitux/python-github3)
+This is a URL as it is passed to the [github3.py](http://github3py.readthedocs.org/en/latest/github.html#githubenterprise-object)
 library. If your GHE instance is code.lan, the URL would look like
 http://code.lan
 
