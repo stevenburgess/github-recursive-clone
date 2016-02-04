@@ -8,4 +8,5 @@ RUN mkdir /opt/ghrc/
 RUN chown -R ghrc:ghrc /opt/ghrc/
 COPY . /opt/code
 WORKDIR /opt/code
+USER ghrc
 CMD python3 /opt/code/ghrc.py
